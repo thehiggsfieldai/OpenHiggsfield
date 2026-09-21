@@ -93,7 +93,13 @@
     "app/ugc/idea-composer.css",
     "scripts/test-composer-browser.mjs",
     "docs/media/studio-explainer.mp4",
-    "docs/media/studio-explainer-poster.jpg"
+    "docs/media/studio-explainer-poster.jpg",
+    "docs/site/index.html",
+    "docs/site/style.css",
+    "docs/site/icon.svg",
+    "docs/media/studio-explainer.vtt",
+    "scripts/build-project-site.mjs",
+    ".github/workflows/pages.yml"
   ],
   "excludedAreas": [
     "app/page.tsx",
