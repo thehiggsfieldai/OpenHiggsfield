@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.sites-runtime/
+.studio-data/
+*.sqlite*
+*.key
+*.pem
+coverage/
+playwright-report/
+test-results/

@@ -1,0 +1,6 @@
+.env
+*.sqlite*
+*.key
+node_modules
+.git
+.studio-data

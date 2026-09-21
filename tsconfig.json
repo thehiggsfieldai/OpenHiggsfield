@@ -1,0 +1,4 @@
+{
+  "compilerOptions": {"target":"ES2022","lib":["ES2022","DOM","DOM.Iterable"],"module":"ESNext","moduleResolution":"Bundler","jsx":"react-jsx","strict":true,"noEmit":true,"skipLibCheck":true,"esModuleInterop":true},
+  "include":["app/ugc/studio.tsx","lib/ugc-project.ts","lib/launch-project.ts","lib/local-assets.ts","lib/studio-media.ts","lib/video-export.ts"]
+}

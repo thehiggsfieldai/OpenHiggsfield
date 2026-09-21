@@ -1,0 +1,12 @@
+export const videoModels=[
+ {id:'wan-2.7',name:'Wan 2.7',endpoint:'wan/v2.7/text-to-video',capability:'text-to-video',resolutions:['720p'],durations:[5],ratios:['9:16','16:9','1:1'],audio:false,verification:'documented; live generation not verified',source:'https://higgsfield.ai/higgsfield-api',checkedAt:'2026-09-19'},
+ {id:'seedance-2.5',name:'Seedance 2.5',endpoint:'bytedance/seedance-2.5/text-to-video',capability:'text-to-video',resolutions:['480p','720p'],durations:Array.from({length:27},(_,i)=>i+4),ratios:['16:9','4:3','1:1','3:4','9:16','21:9'],audio:true,verification:'documented; live generation not verified',source:'https://open.higgsfield.ai/models/bytedance/seedance-2.5/text-to-video/api-reference',checkedAt:'2026-09-19'},
+ {id:'seedance-reference',name:'Seedance 2.5 · Reference images',endpoint:'bytedance/seedance-2.5/reference-to-video',capability:'reference-to-video',resolutions:['480p','720p'],durations:Array.from({length:27},(_,i)=>i+4),ratios:['16:9','4:3','1:1','3:4','9:16','21:9'],audio:true,requiresImages:true,verification:'documented; live generation not verified',source:'https://open.higgsfield.ai/models/bytedance/seedance-2.5/reference-to-video/api-reference',checkedAt:'2026-09-19'}
+];
+export function videoRequest({model='wan-2.7',prompt,format='9:16',duration=5,resolution='720p',audio=false,imageUrls=[]}){
+ const selected=videoModels.find(m=>m.id===model);if(!selected)throw Error('Choose a supported video model.');
+ if(typeof prompt!=='string'||prompt.length<10||prompt.length>2000)throw Error('Enter a 10–2,000 character scene prompt.');
+ if(!selected.ratios.includes(format)||!selected.durations.includes(duration)||!selected.resolutions.includes(resolution)||typeof audio!=='boolean'||audio&&!selected.audio)throw Error('These settings are not supported by the selected model.');
+ if(selected.requiresImages&&(!Array.isArray(imageUrls)||imageUrls.length<1||imageUrls.length>3||imageUrls.some(value=>{try{const u=new URL(value);return u.protocol!=='https:'||Boolean(u.username||u.password);}catch{return true;}})))throw Error('Choose one to three approved workspace reference images.');
+ return{model:selected.id,url:'https://api.higgsfield.ai/'+selected.endpoint,input:{prompt,duration,resolution,aspect_ratio:format,...(model.startsWith('seedance')?{output_format:'mp4',generate_audio:audio,...(selected.requiresImages?{image_urls:imageUrls}:{})}:{prompt_extend:false,negative_prompt:''})}};
+}

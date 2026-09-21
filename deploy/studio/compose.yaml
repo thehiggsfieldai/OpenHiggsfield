@@ -1,0 +1,23 @@
+services:
+  studio:
+    build:
+      context: .
+      dockerfile: deploy/studio/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+    env_file: .env
+    volumes:
+      - studio-data:/data
+    mem_limit: 1g
+    cpus: 2
+    pids_limit: 128
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  studio-data:

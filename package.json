@@ -1,0 +1,35 @@
+{
+  "name": "openhiggsfield",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "ai": "7.0.107",
+    "@ai-sdk/gateway": "4.0.87",
+    "better-auth": "1.7.5",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "zod": "4.5.4",
+    "mediabunny": "1.58.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "typescript": "5.9.3",
+    "playwright": "1.62.1",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
+  },
+  "scripts": {
+    "build": "node scripts/build-studio.mjs",
+    "start": "node deploy/studio/server.mjs",
+    "test": "node scripts/test-studio.mjs",
+    "typecheck": "tsc -p tsconfig.json",
+    "test:browser": "node scripts/test-composer-browser.mjs && node scripts/test-fullframe.mjs && node scripts/test-ux-review.mjs && node scripts/test-reference-browser.mjs && node scripts/test-workspace-tools-browser.mjs && node scripts/test-treatment-browser.mjs && node scripts/test-studio-browser.mjs && node scripts/test-media-isolation.mjs",
+    "test:mp4": "node scripts/test-mp4.mjs",
+    "release:check": "node scripts/release-check.mjs"
+  }
+}
