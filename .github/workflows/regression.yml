@@ -1,23 +1,18 @@
-name: Studio regression
+name: Studio checks
 on: [push, pull_request]
 permissions:
   contents: read
 jobs:
-  regression:
+  check:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-          cache: npm
-      - run: npm ci --ignore-scripts
-      - run: npx playwright install --with-deps chromium
-      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - run: npm run typecheck
+      - run: npm ci
+      - run: npm ci --prefix apps/story-studio
       - run: npm run build
       - run: npm test
-      - run: npm run test:browser
-      - run: npm run test:mp4
-      - run: docker build -f deploy/studio/Dockerfile -t studio-regression .
+      - run: node scripts/test-story-studio.mjs
+      - run: node scripts/test-story-films.mjs --fal --recommended

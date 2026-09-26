@@ -1,12 +1,12 @@
+node_modules/
+dist/
 .env
 .env.*
 !.env.example
-node_modules/
-.sites-runtime/
 .studio-data/
+.sites-runtime/
+outputs/
 *.sqlite*
 *.key
 *.pem
-coverage/
-playwright-report/
-test-results/
+*.tsbuildinfo

@@ -1,0 +1,1340 @@
+{
+  "max_minutes": 10,
+  "cameras": [
+    "slow sideways slide",
+    "slow orbit around the subject",
+    "slow pull-back",
+    "gentle drift",
+    "camera tracks alongside",
+    "static camera with a slight drift",
+    "slow push-in (wide shots without the character only)"
+  ],
+  "categories": [
+    "Original"
+  ],
+  "styles": [
+    {
+      "id": "handcrafted-worlds",
+      "label": "Handcrafted storybook",
+      "thumb": "/artwork/original-cast-concepts.png",
+      "category": "Original",
+      "blurb": "Tactile fabrics, painterly worlds and expressive character performances.",
+      "anchor": "Premium handcrafted storybook animation with painterly paper backgrounds, tactile natural materials, expressive faces and warm cinematic lighting.",
+      "motion": "Gentle expressive acting and purposeful camera movement.",
+      "character_hint": "Keep the approved character proportions, clothing and face consistent.",
+      "palette": {
+        "bg": "#fcf8f1",
+        "text": "#30263c",
+        "accent": "#a85436"
+      },
+      "ref": ""
+    }
+  ],
+  "character_groups": [
+    "Humans",
+    "Animals",
+    "Robots",
+    "Mythical creatures",
+    "Talking objects",
+    "Fantasy beings"
+  ],
+  "characters": [
+    {
+      "id": "zora",
+      "name": "Zora",
+      "personality": "Knows every journey begins with one brave little leap.",
+      "traits": "Black woman pilot, goggles, flight jacket, red scarf",
+      "pronoun": "her",
+      "group": "Humans",
+      "style": "handcrafted-worlds",
+      "style_label": "Pilot",
+      "thumb": "/artwork/transparent-v2/zora.webp",
+      "hero": "/artwork/transparent-v2/zora.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "ravi",
+      "name": "Ravi",
+      "personality": "Collects the sounds of the world and turns them into songs.",
+      "traits": "Dark curly hair, cream kurta, wooden sitar",
+      "pronoun": "his",
+      "group": "Humans",
+      "style": "handcrafted-worlds",
+      "style_label": "Musician",
+      "thumb": "/artwork/transparent-v2/ravi.webp",
+      "hero": "/artwork/transparent-v2/ravi.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "amelie",
+      "name": "Amélie",
+      "personality": "Finds extraordinary adventures in ordinary places.",
+      "traits": "Curly auburn hair, cream shirt, brown waistcoat, folded map",
+      "pronoun": "her",
+      "group": "Humans",
+      "style": "handcrafted-worlds",
+      "style_label": "Mapmaker",
+      "thumb": "/artwork/transparent-v2/amelie.webp",
+      "hero": "/artwork/transparent-v2/amelie.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "vennela",
+      "name": "Vennela",
+      "personality": "Turns enormous questions into small, beautiful discoveries.",
+      "traits": "Indigo shawl, dark hair, brass telescope",
+      "pronoun": "her",
+      "group": "Humans",
+      "style": "handcrafted-worlds",
+      "style_label": "Stargazer",
+      "thumb": "/artwork/transparent-v2/vennela.webp",
+      "hero": "/artwork/transparent-v2/vennela.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "kavin",
+      "name": "Kavin",
+      "personality": "Builds curious little machines to explain how the world works.",
+      "traits": "Curly dark hair, goggles, waistcoat, mechanical bird",
+      "pronoun": "his",
+      "group": "Humans",
+      "style": "handcrafted-worlds",
+      "style_label": "Inventor",
+      "thumb": "/artwork/transparent-v2/kavin.webp",
+      "hero": "/artwork/transparent-v2/kavin.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "ada",
+      "name": "Ada",
+      "personality": "Grows friendships as carefully as she grows sunflowers.",
+      "traits": "Elderly Black woman, gray curls, glasses, green gardening gloves",
+      "pronoun": "her",
+      "group": "Humans",
+      "style": "handcrafted-worlds",
+      "style_label": "Gardener",
+      "thumb": "/artwork/transparent-v2/ada.webp",
+      "hero": "/artwork/transparent-v2/ada.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "jun",
+      "name": "Jun",
+      "personality": "Follows a recipe until a better adventure comes along.",
+      "traits": "East Asian chef, tall white hat, red neckerchief, wooden spoon",
+      "pronoun": "his",
+      "group": "Humans",
+      "style": "handcrafted-worlds",
+      "style_label": "Chef",
+      "thumb": "/artwork/transparent-v2/jun.webp",
+      "hero": "/artwork/transparent-v2/jun.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "marin",
+      "name": "Marin",
+      "personality": "Finds courage one tide pool at a time.",
+      "traits": "Yellow raincoat and hat, binoculars",
+      "pronoun": "her",
+      "group": "Humans",
+      "style": "handcrafted-worlds",
+      "style_label": "Ocean explorer",
+      "thumb": "/artwork/transparent-v2/marin.webp",
+      "hero": "/artwork/transparent-v2/marin.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "otto",
+      "name": "Otto",
+      "personality": "Always makes time for people who need a listening ear.",
+      "traits": "Elderly man, white hair, round glasses, brass pocket watch",
+      "pronoun": "his",
+      "group": "Humans",
+      "style": "handcrafted-worlds",
+      "style_label": "Clockmaker",
+      "thumb": "/artwork/transparent-v2/otto.webp",
+      "hero": "/artwork/transparent-v2/otto.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "tala",
+      "name": "Tala",
+      "personality": "Finds a new perspective beyond every bend in the trail.",
+      "traits": "Red knit hat, rust jacket, backpack",
+      "pronoun": "her",
+      "group": "Humans",
+      "style": "handcrafted-worlds",
+      "style_label": "Mountain explorer",
+      "thumb": "/artwork/transparent-v2/tala.webp",
+      "hero": "/artwork/transparent-v2/tala.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "pip",
+      "name": "Pip",
+      "personality": "Delivers letters, surprises and the occasional happy ending.",
+      "traits": "Orange fox, navy postal cap, leather satchel",
+      "pronoun": "his",
+      "group": "Animals",
+      "style": "handcrafted-worlds",
+      "style_label": "Fox postman",
+      "thumb": "/artwork/transparent-v2/pip.webp",
+      "hero": "/artwork/transparent-v2/pip.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "pippa",
+      "name": "Pippa",
+      "personality": "Believes the right book can warm even the coldest day.",
+      "traits": "Blue penguin, round glasses, stack of books",
+      "pronoun": "her",
+      "group": "Animals",
+      "style": "handcrafted-worlds",
+      "style_label": "Penguin librarian",
+      "thumb": "/artwork/transparent-v2/pippa.webp",
+      "hero": "/artwork/transparent-v2/pippa.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "personality": "Bakes second chances into every loaf of bread.",
+      "traits": "Brown bear, chef hat, apron, bread loaf",
+      "pronoun": "his",
+      "group": "Animals",
+      "style": "handcrafted-worlds",
+      "style_label": "Bear baker",
+      "thumb": "/artwork/transparent-v2/bruno.webp",
+      "hero": "/artwork/transparent-v2/bruno.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "lumi",
+      "name": "Lumi",
+      "personality": "Takes tiny hops toward very big discoveries.",
+      "traits": "Gray rabbit, white space suit, long ears",
+      "pronoun": "her",
+      "group": "Animals",
+      "style": "handcrafted-worlds",
+      "style_label": "Rabbit astronaut",
+      "thumb": "/artwork/transparent-v2/lumi.webp",
+      "hero": "/artwork/transparent-v2/lumi.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "personality": "Notices the beautiful details everybody else walks past.",
+      "traits": "Red panda, camera, striped tail",
+      "pronoun": "their",
+      "group": "Animals",
+      "style": "handcrafted-worlds",
+      "style_label": "Red panda photographer",
+      "thumb": "/artwork/transparent-v2/pixel.webp",
+      "hero": "/artwork/transparent-v2/pixel.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "moss",
+      "name": "Moss",
+      "personality": "Teaches impatient friends how good things take time.",
+      "traits": "Green turtle, straw hat, plant pot",
+      "pronoun": "his",
+      "group": "Animals",
+      "style": "handcrafted-worlds",
+      "style_label": "Turtle gardener",
+      "thumb": "/artwork/transparent-v2/moss.webp",
+      "hero": "/artwork/transparent-v2/moss.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "professor-plum",
+      "name": "Professor Plum",
+      "personality": "Answers every question with an even more interesting one.",
+      "traits": "Purple owl, gold glasses, open book",
+      "pronoun": "their",
+      "group": "Animals",
+      "style": "handcrafted-worlds",
+      "style_label": "Owl professor",
+      "thumb": "/artwork/transparent-v2/professor-plum.webp",
+      "hero": "/artwork/transparent-v2/professor-plum.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "ollie",
+      "name": "Ollie",
+      "personality": "Sails toward the unknown with a pocket full of optimism.",
+      "traits": "Golden otter, sailor cap, blue neckerchief",
+      "pronoun": "his",
+      "group": "Animals",
+      "style": "handcrafted-worlds",
+      "style_label": "Otter sailor",
+      "thumb": "/artwork/transparent-v2/ollie.webp",
+      "hero": "/artwork/transparent-v2/ollie.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "cleo",
+      "name": "Cleo",
+      "personality": "Solves mysteries by paying attention to the quiet clues.",
+      "traits": "Black and white cat, detective hat, magnifying glass",
+      "pronoun": "her",
+      "group": "Animals",
+      "style": "handcrafted-worlds",
+      "style_label": "Cat detective",
+      "thumb": "/artwork/transparent-v2/cleo.webp",
+      "hero": "/artwork/transparent-v2/cleo.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "ellie",
+      "name": "Ellie",
+      "personality": "Paints feelings too big to fit into words.",
+      "traits": "Yellow elephant, blue beret, paintbrush and palette",
+      "pronoun": "her",
+      "group": "Animals",
+      "style": "handcrafted-worlds",
+      "style_label": "Elephant painter",
+      "thumb": "/artwork/transparent-v2/ellie.webp",
+      "hero": "/artwork/transparent-v2/ellie.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "bop",
+      "name": "Bop",
+      "personality": "Asks why until the whole room starts wondering too.",
+      "traits": "Round orange robot, antenna, big circular eyes",
+      "pronoun": "their",
+      "group": "Robots",
+      "style": "handcrafted-worlds",
+      "style_label": "Curious robot",
+      "thumb": "/artwork/transparent-v2/bop.webp",
+      "hero": "/artwork/transparent-v2/bop.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "sprout",
+      "name": "Sprout",
+      "personality": "Learns that caring cannot always be programmed.",
+      "traits": "Square teal robot, caterpillar tracks, plant sprout",
+      "pronoun": "their",
+      "group": "Robots",
+      "style": "handcrafted-worlds",
+      "style_label": "Garden robot",
+      "thumb": "/artwork/transparent-v2/sprout.webp",
+      "hero": "/artwork/transparent-v2/sprout.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "orbit",
+      "name": "Orbit",
+      "personality": "Looks for distant stars and nearby friends.",
+      "traits": "Tall purple telescope robot, three slender legs",
+      "pronoun": "their",
+      "group": "Robots",
+      "style": "handcrafted-worlds",
+      "style_label": "Telescope robot",
+      "thumb": "/artwork/transparent-v2/orbit.webp",
+      "hero": "/artwork/transparent-v2/orbit.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "tidbit",
+      "name": "Tidbit",
+      "personality": "Finds extraordinary treasures while tidying ordinary rooms.",
+      "traits": "Small yellow robot, broom, round black face",
+      "pronoun": "their",
+      "group": "Robots",
+      "style": "handcrafted-worlds",
+      "style_label": "Little helper",
+      "thumb": "/artwork/transparent-v2/tidbit.webp",
+      "hero": "/artwork/transparent-v2/tidbit.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "rosie",
+      "name": "Rosie",
+      "personality": "Listens first and reaches for the toolkit second.",
+      "traits": "Pink nurse robot, white hat, heart on chest",
+      "pronoun": "their",
+      "group": "Robots",
+      "style": "handcrafted-worlds",
+      "style_label": "Care robot",
+      "thumb": "/artwork/transparent-v2/rosie.webp",
+      "hero": "/artwork/transparent-v2/rosie.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "cog",
+      "name": "Cog",
+      "personality": "Turns old spare parts into brand-new possibilities.",
+      "traits": "Copper steampunk robot, gears, round goggles",
+      "pronoun": "their",
+      "group": "Robots",
+      "style": "handcrafted-worlds",
+      "style_label": "Clockwork robot",
+      "thumb": "/artwork/transparent-v2/cog.webp",
+      "hero": "/artwork/transparent-v2/cog.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "delta",
+      "name": "Delta",
+      "personality": "Maps the deep sea without forgetting to admire it.",
+      "traits": "White and blue submarine robot, glowing round face",
+      "pronoun": "their",
+      "group": "Robots",
+      "style": "handcrafted-worlds",
+      "style_label": "Ocean robot",
+      "thumb": "/artwork/transparent-v2/delta.webp",
+      "hero": "/artwork/transparent-v2/delta.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "zip",
+      "name": "Zip",
+      "personality": "Discovers that the scenic route sometimes matters most.",
+      "traits": "Red wheeled robot, parcel, small antenna",
+      "pronoun": "their",
+      "group": "Robots",
+      "style": "handcrafted-worlds",
+      "style_label": "Delivery robot",
+      "thumb": "/artwork/transparent-v2/zip.webp",
+      "hero": "/artwork/transparent-v2/zip.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "fern",
+      "name": "Fern",
+      "personality": "Learns that a gentle heart can be stronger than fire.",
+      "traits": "Emerald dragon, little horns, orange wings",
+      "pronoun": "their",
+      "group": "Mythical creatures",
+      "style": "handcrafted-worlds",
+      "style_label": "Little dragon",
+      "thumb": "/artwork/transparent-v2/fern.webp",
+      "hero": "/artwork/transparent-v2/fern.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "personality": "Looks for magic in kindness instead of grand spells.",
+      "traits": "Ivory unicorn, orange mane, golden horn",
+      "pronoun": "her",
+      "group": "Mythical creatures",
+      "style": "handcrafted-worlds",
+      "style_label": "Unicorn",
+      "thumb": "/artwork/transparent-v2/aurora.webp",
+      "hero": "/artwork/transparent-v2/aurora.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "emberwing",
+      "name": "Emberwing",
+      "personality": "Shows that beginning again is its own kind of bravery.",
+      "traits": "Fiery orange phoenix, broad golden wings",
+      "pronoun": "their",
+      "group": "Mythical creatures",
+      "style": "handcrafted-worlds",
+      "style_label": "Phoenix",
+      "thumb": "/artwork/transparent-v2/emberwing.webp",
+      "hero": "/artwork/transparent-v2/emberwing.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "neri",
+      "name": "Neri",
+      "personality": "Keeps the ocean’s stories safe and shares its secrets wisely.",
+      "traits": "Turquoise mermaid, flowing teal hair, scaled tail",
+      "pronoun": "her",
+      "group": "Mythical creatures",
+      "style": "handcrafted-worlds",
+      "style_label": "Mermaid",
+      "thumb": "/artwork/transparent-v2/neri.webp",
+      "hero": "/artwork/transparent-v2/neri.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "uno",
+      "name": "Uno",
+      "personality": "Sees the best in everyone with one very big eye.",
+      "traits": "Friendly round purple cyclops, small horns",
+      "pronoun": "his",
+      "group": "Mythical creatures",
+      "style": "handcrafted-worlds",
+      "style_label": "Gentle cyclops",
+      "thumb": "/artwork/transparent-v2/uno.webp",
+      "hero": "/artwork/transparent-v2/uno.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "rowan",
+      "name": "Rowan",
+      "personality": "Knows every woodland path and every creature’s name.",
+      "traits": "Small faun, branching antlers, green leaf tunic",
+      "pronoun": "their",
+      "group": "Mythical creatures",
+      "style": "handcrafted-worlds",
+      "style_label": "Forest faun",
+      "thumb": "/artwork/transparent-v2/rowan.webp",
+      "hero": "/artwork/transparent-v2/rowan.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "yuki",
+      "name": "Yuki",
+      "personality": "Brings warm welcomes to the coldest mountain peaks.",
+      "traits": "Fluffy white yeti, blue face and feet",
+      "pronoun": "their",
+      "group": "Mythical creatures",
+      "style": "handcrafted-worlds",
+      "style_label": "Snow yeti",
+      "thumb": "/artwork/transparent-v2/yuki.webp",
+      "hero": "/artwork/transparent-v2/yuki.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "gild",
+      "name": "Gild",
+      "personality": "Guards small promises as fiercely as ancient treasure.",
+      "traits": "Golden griffin, feathered wings, feline paws",
+      "pronoun": "their",
+      "group": "Mythical creatures",
+      "style": "handcrafted-worlds",
+      "style_label": "Griffin",
+      "thumb": "/artwork/transparent-v2/gild.webp",
+      "hero": "/artwork/transparent-v2/gild.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "tansy",
+      "name": "Tansy",
+      "personality": "Pours out good advice with every cup of tea.",
+      "traits": "Orange teapot, smiling face, curled handle",
+      "pronoun": "her",
+      "group": "Talking objects",
+      "style": "handcrafted-worlds",
+      "style_label": "Talking teapot",
+      "thumb": "/artwork/transparent-v2/tansy.webp",
+      "hero": "/artwork/transparent-v2/tansy.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "fable",
+      "name": "Fable",
+      "personality": "Has a thousand tales but is still writing their own.",
+      "traits": "Purple book, gold corners, expressive face",
+      "pronoun": "their",
+      "group": "Talking objects",
+      "style": "handcrafted-worlds",
+      "style_label": "Living book",
+      "thumb": "/artwork/transparent-v2/fable.webp",
+      "hero": "/artwork/transparent-v2/fable.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "lux",
+      "name": "Lux",
+      "personality": "Helps friends see their problems in a different light.",
+      "traits": "Yellow desk lamp, smiling lampshade face",
+      "pronoun": "their",
+      "group": "Talking objects",
+      "style": "handcrafted-worlds",
+      "style_label": "Desk lamp",
+      "thumb": "/artwork/transparent-v2/lux.webp",
+      "hero": "/artwork/transparent-v2/lux.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "welly",
+      "name": "Welly",
+      "personality": "Jumps into every puddle and every new possibility.",
+      "traits": "Red rain boot, cheerful eyes and mouth",
+      "pronoun": "their",
+      "group": "Talking objects",
+      "style": "handcrafted-worlds",
+      "style_label": "Rain boot",
+      "thumb": "/artwork/transparent-v2/welly.webp",
+      "hero": "/artwork/transparent-v2/welly.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "tock",
+      "name": "Tock",
+      "personality": "Learns when to hurry and when to enjoy the moment.",
+      "traits": "Blue twin-bell alarm clock, expressive clock face",
+      "pronoun": "their",
+      "group": "Talking objects",
+      "style": "handcrafted-worlds",
+      "style_label": "Alarm clock",
+      "thumb": "/artwork/transparent-v2/tock.webp",
+      "hero": "/artwork/transparent-v2/tock.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "perry",
+      "name": "Perry",
+      "personality": "Discovers there is no single right way to grow.",
+      "traits": "Green pear, leaf stem, friendly face",
+      "pronoun": "their",
+      "group": "Talking objects",
+      "style": "handcrafted-worlds",
+      "style_label": "Talking pear",
+      "thumb": "/artwork/transparent-v2/perry.webp",
+      "hero": "/artwork/transparent-v2/perry.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "click",
+      "name": "Click",
+      "personality": "Collects memories that remind people what matters.",
+      "traits": "Brown vintage camera, two lenses, leather strap",
+      "pronoun": "their",
+      "group": "Talking objects",
+      "style": "handcrafted-worlds",
+      "style_label": "Vintage camera",
+      "thumb": "/artwork/transparent-v2/click.webp",
+      "hero": "/artwork/transparent-v2/click.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "nimbus",
+      "name": "Nimbus",
+      "personality": "Learns that even a rainy day has something to give.",
+      "traits": "White fluffy cloud, blue raindrop feet",
+      "pronoun": "their",
+      "group": "Fantasy beings",
+      "style": "handcrafted-worlds",
+      "style_label": "Cloud spirit",
+      "thumb": "/artwork/transparent-v2/nimbus.webp",
+      "hero": "/artwork/transparent-v2/nimbus.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "selene",
+      "name": "Selene",
+      "personality": "Guides lost dreams back to the people who need them.",
+      "traits": "Crescent moon head, indigo starry robe, glowing staff",
+      "pronoun": "their",
+      "group": "Fantasy beings",
+      "style": "handcrafted-worlds",
+      "style_label": "Dream keeper",
+      "thumb": "/artwork/transparent-v2/selene.webp",
+      "hero": "/artwork/transparent-v2/selene.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "morel",
+      "name": "Morel",
+      "personality": "Finds entire worlds underneath the forest’s smallest leaves.",
+      "traits": "Red spotted mushroom cap, cream coat, red scarf",
+      "pronoun": "their",
+      "group": "Fantasy beings",
+      "style": "handcrafted-worlds",
+      "style_label": "Mushroom wanderer",
+      "thumb": "/artwork/transparent-v2/morel.webp",
+      "hero": "/artwork/transparent-v2/morel.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "twinkle",
+      "name": "Twinkle",
+      "personality": "Discovers you do not have to be the brightest to help.",
+      "traits": "Golden five-point star, little face and feet",
+      "pronoun": "their",
+      "group": "Fantasy beings",
+      "style": "handcrafted-worlds",
+      "style_label": "Star sprite",
+      "thumb": "/artwork/transparent-v2/twinkle.webp",
+      "hero": "/artwork/transparent-v2/twinkle.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "coralie",
+      "name": "Coralie",
+      "personality": "Builds a home where every unusual creature belongs.",
+      "traits": "Pink branching coral creature, large bright eyes",
+      "pronoun": "their",
+      "group": "Fantasy beings",
+      "style": "handcrafted-worlds",
+      "style_label": "Coral spirit",
+      "thumb": "/artwork/transparent-v2/coralie.webp",
+      "hero": "/artwork/transparent-v2/coralie.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "pebble",
+      "name": "Pebble",
+      "personality": "Keeps ancient stories alive by sharing them with new friends.",
+      "traits": "Round moss-covered rock, tiny flowers, gentle eyes",
+      "pronoun": "their",
+      "group": "Fantasy beings",
+      "style": "handcrafted-worlds",
+      "style_label": "Moss guardian",
+      "thumb": "/artwork/transparent-v2/pebble.webp",
+      "hero": "/artwork/transparent-v2/pebble.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    },
+    {
+      "id": "jelli",
+      "name": "Jelli",
+      "personality": "Drifts between planets looking for a place to call home.",
+      "traits": "Glowing blue jellyfish, translucent bell, long tentacles",
+      "pronoun": "their",
+      "group": "Fantasy beings",
+      "style": "handcrafted-worlds",
+      "style_label": "Space jellyfish",
+      "thumb": "/artwork/transparent-v2/jelli.webp",
+      "hero": "/artwork/transparent-v2/jelli.webp",
+      "sheet": "",
+      "voice": {
+        "voice_id": "",
+        "name": "Voice pairing pending"
+      }
+    }
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "native": "English",
+      "font": "Nunito"
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "native": "Türkçe",
+      "font": "Nunito"
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "native": "Español",
+      "font": "Nunito"
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "native": "Français",
+      "font": "Nunito"
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "native": "Deutsch",
+      "font": "Nunito"
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "native": "Italiano",
+      "font": "Nunito"
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "native": "Português",
+      "font": "Nunito"
+    },
+    {
+      "code": "nl",
+      "name": "Dutch",
+      "native": "Nederlands",
+      "font": "Nunito"
+    },
+    {
+      "code": "pl",
+      "name": "Polish",
+      "native": "Polski",
+      "font": "Nunito"
+    },
+    {
+      "code": "sv",
+      "name": "Swedish",
+      "native": "Svenska",
+      "font": "Nunito"
+    },
+    {
+      "code": "da",
+      "name": "Danish",
+      "native": "Dansk",
+      "font": "Nunito"
+    },
+    {
+      "code": "no",
+      "name": "Norwegian",
+      "native": "Norsk",
+      "font": "Nunito"
+    },
+    {
+      "code": "fi",
+      "name": "Finnish",
+      "native": "Suomi",
+      "font": "Nunito"
+    },
+    {
+      "code": "is",
+      "name": "Icelandic",
+      "native": "Íslenska",
+      "font": "Nunito"
+    },
+    {
+      "code": "cs",
+      "name": "Czech",
+      "native": "Čeština",
+      "font": "Nunito"
+    },
+    {
+      "code": "sk",
+      "name": "Slovak",
+      "native": "Slovenčina",
+      "font": "Nunito"
+    },
+    {
+      "code": "sl",
+      "name": "Slovenian",
+      "native": "Slovenščina",
+      "font": "Nunito"
+    },
+    {
+      "code": "hr",
+      "name": "Croatian",
+      "native": "Hrvatski",
+      "font": "Nunito"
+    },
+    {
+      "code": "bs",
+      "name": "Bosnian",
+      "native": "Bosanski",
+      "font": "Nunito"
+    },
+    {
+      "code": "sr",
+      "name": "Serbian",
+      "native": "Српски",
+      "font": "Nunito"
+    },
+    {
+      "code": "mk",
+      "name": "Macedonian",
+      "native": "Македонски",
+      "font": "Nunito"
+    },
+    {
+      "code": "bg",
+      "name": "Bulgarian",
+      "native": "Български",
+      "font": "Nunito"
+    },
+    {
+      "code": "ro",
+      "name": "Romanian",
+      "native": "Română",
+      "font": "Nunito"
+    },
+    {
+      "code": "hu",
+      "name": "Hungarian",
+      "native": "Magyar",
+      "font": "Nunito"
+    },
+    {
+      "code": "el",
+      "name": "Greek",
+      "native": "Ελληνικά",
+      "font": "Noto Sans"
+    },
+    {
+      "code": "uk",
+      "name": "Ukrainian",
+      "native": "Українська",
+      "font": "Nunito"
+    },
+    {
+      "code": "ru",
+      "name": "Russian",
+      "native": "Русский",
+      "font": "Nunito"
+    },
+    {
+      "code": "be",
+      "name": "Belarusian",
+      "native": "Беларуская",
+      "font": "Nunito"
+    },
+    {
+      "code": "lt",
+      "name": "Lithuanian",
+      "native": "Lietuvių",
+      "font": "Nunito"
+    },
+    {
+      "code": "lv",
+      "name": "Latvian",
+      "native": "Latviešu",
+      "font": "Nunito"
+    },
+    {
+      "code": "et",
+      "name": "Estonian",
+      "native": "Eesti",
+      "font": "Nunito"
+    },
+    {
+      "code": "ga",
+      "name": "Irish",
+      "native": "Gaeilge",
+      "font": "Nunito"
+    },
+    {
+      "code": "cy",
+      "name": "Welsh",
+      "native": "Cymraeg",
+      "font": "Nunito"
+    },
+    {
+      "code": "ca",
+      "name": "Catalan",
+      "native": "Català",
+      "font": "Nunito"
+    },
+    {
+      "code": "gl",
+      "name": "Galician",
+      "native": "Galego",
+      "font": "Nunito"
+    },
+    {
+      "code": "lb",
+      "name": "Luxembourgish",
+      "native": "Lëtzebuergesch",
+      "font": "Nunito"
+    },
+    {
+      "code": "af",
+      "name": "Afrikaans",
+      "native": "Afrikaans",
+      "font": "Nunito"
+    },
+    {
+      "code": "sw",
+      "name": "Swahili",
+      "native": "Kiswahili",
+      "font": "Nunito"
+    },
+    {
+      "code": "ha",
+      "name": "Hausa",
+      "native": "Hausa",
+      "font": "Nunito"
+    },
+    {
+      "code": "so",
+      "name": "Somali",
+      "native": "Soomaali",
+      "font": "Nunito"
+    },
+    {
+      "code": "ln",
+      "name": "Lingala",
+      "native": "Lingála",
+      "font": "Nunito"
+    },
+    {
+      "code": "ny",
+      "name": "Chichewa",
+      "native": "Chichewa",
+      "font": "Nunito"
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "native": "العربية",
+      "font": "Noto Sans Arabic"
+    },
+    {
+      "code": "fa",
+      "name": "Persian",
+      "native": "فارسی",
+      "font": "Noto Sans Arabic"
+    },
+    {
+      "code": "ur",
+      "name": "Urdu",
+      "native": "اردو",
+      "font": "Noto Sans Arabic"
+    },
+    {
+      "code": "ps",
+      "name": "Pashto",
+      "native": "پښتو",
+      "font": "Noto Sans Arabic"
+    },
+    {
+      "code": "sd",
+      "name": "Sindhi",
+      "native": "سنڌي",
+      "font": "Noto Sans Arabic"
+    },
+    {
+      "code": "he",
+      "name": "Hebrew",
+      "native": "עברית",
+      "font": "Noto Sans Hebrew"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "native": "हिन्दी",
+      "font": "Noto Sans Devanagari"
+    },
+    {
+      "code": "mr",
+      "name": "Marathi",
+      "native": "मराठी",
+      "font": "Noto Sans Devanagari"
+    },
+    {
+      "code": "ne",
+      "name": "Nepali",
+      "native": "नेपाली",
+      "font": "Noto Sans Devanagari"
+    },
+    {
+      "code": "bn",
+      "name": "Bengali",
+      "native": "বাংলা",
+      "font": "Noto Sans Bengali"
+    },
+    {
+      "code": "as",
+      "name": "Assamese",
+      "native": "অসমীয়া",
+      "font": "Noto Sans Bengali"
+    },
+    {
+      "code": "pa",
+      "name": "Punjabi",
+      "native": "ਪੰਜਾਬੀ",
+      "font": "Noto Sans Gurmukhi"
+    },
+    {
+      "code": "gu",
+      "name": "Gujarati",
+      "native": "ગુજરાતી",
+      "font": "Noto Sans Gujarati"
+    },
+    {
+      "code": "ta",
+      "name": "Tamil",
+      "native": "தமிழ்",
+      "font": "Noto Sans Tamil"
+    },
+    {
+      "code": "te",
+      "name": "Telugu",
+      "native": "తెలుగు",
+      "font": "Noto Sans Telugu"
+    },
+    {
+      "code": "kn",
+      "name": "Kannada",
+      "native": "ಕನ್ನಡ",
+      "font": "Noto Sans Kannada"
+    },
+    {
+      "code": "ml",
+      "name": "Malayalam",
+      "native": "മലയാളം",
+      "font": "Noto Sans Malayalam"
+    },
+    {
+      "code": "th",
+      "name": "Thai",
+      "native": "ไทย",
+      "font": "Noto Sans Thai"
+    },
+    {
+      "code": "vi",
+      "name": "Vietnamese",
+      "native": "Tiếng Việt",
+      "font": "Nunito"
+    },
+    {
+      "code": "id",
+      "name": "Indonesian",
+      "native": "Bahasa Indonesia",
+      "font": "Nunito"
+    },
+    {
+      "code": "ms",
+      "name": "Malay",
+      "native": "Bahasa Melayu",
+      "font": "Nunito"
+    },
+    {
+      "code": "fil",
+      "name": "Filipino",
+      "native": "Filipino",
+      "font": "Nunito"
+    },
+    {
+      "code": "ceb",
+      "name": "Cebuano",
+      "native": "Cebuano",
+      "font": "Nunito"
+    },
+    {
+      "code": "jv",
+      "name": "Javanese",
+      "native": "Basa Jawa",
+      "font": "Nunito"
+    },
+    {
+      "code": "zh",
+      "name": "Chinese (Mandarin)",
+      "native": "中文",
+      "font": "Noto Sans SC"
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "native": "日本語",
+      "font": "Noto Sans JP"
+    },
+    {
+      "code": "ko",
+      "name": "Korean",
+      "native": "한국어",
+      "font": "Noto Sans KR"
+    },
+    {
+      "code": "ka",
+      "name": "Georgian",
+      "native": "ქართული",
+      "font": "Noto Sans Georgian"
+    },
+    {
+      "code": "hy",
+      "name": "Armenian",
+      "native": "Հայերեն",
+      "font": "Noto Sans Armenian"
+    },
+    {
+      "code": "az",
+      "name": "Azerbaijani",
+      "native": "Azərbaycanca",
+      "font": "Nunito"
+    },
+    {
+      "code": "kk",
+      "name": "Kazakh",
+      "native": "Қазақша",
+      "font": "Nunito"
+    },
+    {
+      "code": "ky",
+      "name": "Kyrgyz",
+      "native": "Кыргызча",
+      "font": "Nunito"
+    }
+  ],
+  "curated_voices": {}
+}

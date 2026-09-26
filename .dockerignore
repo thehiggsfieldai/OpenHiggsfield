@@ -1,6 +1,8 @@
+.git
+**/node_modules
+**/dist
 .env
+.studio-data
+outputs
 *.sqlite*
 *.key
-node_modules
-.git
-.studio-data

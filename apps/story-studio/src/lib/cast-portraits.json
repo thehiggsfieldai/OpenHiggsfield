@@ -1,0 +1,302 @@
+{
+  "zora": {
+    "src": "/artwork/transparent-v2/zora.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "d302453141f01efca13e39c014a361459808c1a1ad2ca863d07d67e347d35675"
+  },
+  "ravi": {
+    "src": "/artwork/transparent-v2/ravi.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "f421da2fbdedc610f832453a5710733c0584053cc3a08a34ff777ebdb6a58ad6"
+  },
+  "amelie": {
+    "src": "/artwork/transparent-v2/amelie.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "f2a4e10fd6c2223acc453c5fdfafd9c03be6e58fb6c55962b964d6899adcda4f"
+  },
+  "vennela": {
+    "src": "/artwork/transparent-v2/vennela.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "6c9e28649cecbb645402bb8235d73b427e34f9460ddc2ac96ad838e9605945cb"
+  },
+  "kavin": {
+    "src": "/artwork/transparent-v2/kavin.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "3b9f5abd30e26ec315b8fa162cb573986cebb34c9fdc802d47a14c982f3c8d9a"
+  },
+  "ada": {
+    "src": "/artwork/transparent-v2/ada.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "dba5101489f57bc29483b9e98570de5bc1a15efe850f062fcdb0fa33b811e391"
+  },
+  "jun": {
+    "src": "/artwork/transparent-v2/jun.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "7d222ec6f11a9cdb74256c22a03dba75a31a50e043f626326a9ca3605ef38293"
+  },
+  "marin": {
+    "src": "/artwork/transparent-v2/marin.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "b4556cf65a7c3a86f28995c370f94ae1d36619f9422109e4fd43c485eac10ced"
+  },
+  "otto": {
+    "src": "/artwork/transparent-v2/otto.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "2415de68f13e99e4607ce01e9e429178d76bdaaf91d9d34c166b4e51ab588870"
+  },
+  "tala": {
+    "src": "/artwork/transparent-v2/tala.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "b5dcd6f7c3e2909c50e4934d5f09e79e94d203566f312d113b8314f102430b93"
+  },
+  "pip": {
+    "src": "/artwork/transparent-v2/pip.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "ecc2cc365983efaa3341d5f2dae893eab265f1d60e7b907d0be1bbd5200fe259"
+  },
+  "pippa": {
+    "src": "/artwork/transparent-v2/pippa.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "19633b5f3ba86b296c33a49dad4eb27ee406bc0225199d8367a37f29034a3f04"
+  },
+  "bruno": {
+    "src": "/artwork/transparent-v2/bruno.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "8f98f87f131cdca0b0723e566c6c816ef52e4dae2d537e49217ee3a4512a0b1a"
+  },
+  "lumi": {
+    "src": "/artwork/transparent-v2/lumi.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "f926e0cdc9a2a7c714ad9914e407631f58230c504e705d04a077af02d8d3d3fc"
+  },
+  "pixel": {
+    "src": "/artwork/transparent-v2/pixel.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "405b9bda4dc8d2a08163de1ae11a87bb74aab7c9deb2ad77ac3214de89d799dd"
+  },
+  "moss": {
+    "src": "/artwork/transparent-v2/moss.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "e723158abf6621cb79c5dd2e9eb325cbc454eeaf463222a53347dc9b41925c14"
+  },
+  "professor-plum": {
+    "src": "/artwork/transparent-v2/professor-plum.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "0742dcb31b4a8f9bc8437e308db6b7f62e2d90d1786412eafe8276ccd6895c5c"
+  },
+  "ollie": {
+    "src": "/artwork/transparent-v2/ollie.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "9f51f82443f91a6ac0b8d4103307de21ed4e1a90b7ce307b317bb9097670e913"
+  },
+  "cleo": {
+    "src": "/artwork/transparent-v2/cleo.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "ccea86ae92e6794043507fa4eb20ec0e1ff32a6acfd8d31bf5e38a4b184f269f"
+  },
+  "ellie": {
+    "src": "/artwork/transparent-v2/ellie.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "d251e51e3af5a8189c4e4a7398272b8e21cb314a1667113309733376143c9b58"
+  },
+  "bop": {
+    "src": "/artwork/transparent-v2/bop.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "6967201006674de4e69f34d272d62310cb47f4e74e1c1b8ed744b7ab7f9c3d1d"
+  },
+  "sprout": {
+    "src": "/artwork/transparent-v2/sprout.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "7a2060e85dac2b0afd54f0215666bbc32e334867279bdd6464b79e742f1c227b"
+  },
+  "orbit": {
+    "src": "/artwork/transparent-v2/orbit.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "83c961cd2c36da23cdc6dd5ca98586cb07aa00753dd1b05a870748b16ebc4682"
+  },
+  "tidbit": {
+    "src": "/artwork/transparent-v2/tidbit.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "abb405e8b758531beeb24fde25c6fb4472b31add85af7372b30cf69dca4ce41e"
+  },
+  "rosie": {
+    "src": "/artwork/transparent-v2/rosie.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "380f09771d8e103cab5624b1516f62cd0dc4f3f9912efbc56c25a9ea9ab0f22d"
+  },
+  "cog": {
+    "src": "/artwork/transparent-v2/cog.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "fc81b4eb2a37bb1c52f636bf847c10a2d8bd29a8d5c1fe39a0ff292792b8d6cb"
+  },
+  "delta": {
+    "src": "/artwork/transparent-v2/delta.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "8aba33b9737c0d8a2373a9de074a0fccb5c1b032c14ae8aea932c0d17d62b08e"
+  },
+  "zip": {
+    "src": "/artwork/transparent-v2/zip.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "9f83e1027491b7f038b7202f748a12d20f6d73eeea02176b9a9490854bf0ace3"
+  },
+  "fern": {
+    "src": "/artwork/transparent-v2/fern.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "37a0416e4b29722bfd292322bd6131ce421583d0ffcb186120bc005c678b7b60"
+  },
+  "aurora": {
+    "src": "/artwork/transparent-v2/aurora.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "237d0a7fa6d7f08cccfa3304867b1c4c4efbb0dda482441b699419dc02e70431"
+  },
+  "emberwing": {
+    "src": "/artwork/transparent-v2/emberwing.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "9e966a53a6c03290988ab8c9630e2b99d5964f6a4c784df36d3eeb4e4c8e5e5c"
+  },
+  "neri": {
+    "src": "/artwork/transparent-v2/neri.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "455e90a8059f48e34000e3864946cf397885c6c325886f5efa418cc580bf2c2a"
+  },
+  "uno": {
+    "src": "/artwork/transparent-v2/uno.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "d2dfd57d85dfc6dd11cb3d9466c3924721545bda741575bc8c539989154a2851"
+  },
+  "rowan": {
+    "src": "/artwork/transparent-v2/rowan.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "59784146fda5c19a554bb26d23988cd6b9809df449aea90922d9d20f16843969"
+  },
+  "yuki": {
+    "src": "/artwork/transparent-v2/yuki.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "f95f98161b02f97d406e6414add03d4e49b3629cbca91f02fec399e7bad351c2"
+  },
+  "gild": {
+    "src": "/artwork/transparent-v2/gild.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "b007cf9186ebe7bac885a958598c4966ac72db26eaaca6b2e2d0b5b4b8d94fff"
+  },
+  "tansy": {
+    "src": "/artwork/transparent-v2/tansy.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "4f3880c5cefb5c93538c1646b751c72b88b21c1da18abfc0c80c448aa6586820"
+  },
+  "fable": {
+    "src": "/artwork/transparent-v2/fable.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "4221feb039602d05d15c886c71aad2dba44df68427190e508bf27c344745f4aa"
+  },
+  "lux": {
+    "src": "/artwork/transparent-v2/lux.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "b5f9e464b3ca39f4585f9473f789cb1a43056e1b4d4b8458af856f9ecdecf524"
+  },
+  "welly": {
+    "src": "/artwork/transparent-v2/welly.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "03240f6efcec7e433a702f0d2a112c4ed89570b54c8fc40374ce89e3a81b5de7"
+  },
+  "tock": {
+    "src": "/artwork/transparent-v2/tock.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "4deadde455c9a72e6e10324d7070e72d29b4e1e989db193540eb5a7acbf6d399"
+  },
+  "perry": {
+    "src": "/artwork/transparent-v2/perry.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "875961f3e53242526e91921304f020acdf1d07cf45e624324f42fd46e7f460aa"
+  },
+  "click": {
+    "src": "/artwork/transparent-v2/click.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "dfc09df01f9d47256e09cae3296a2ff1ed5a5e0ab62c311485fed2a5af1df876"
+  },
+  "nimbus": {
+    "src": "/artwork/transparent-v2/nimbus.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "b3f49375880204525b631100293ea8e6b536f86f7ad88b6c4e1cf0307309d84f"
+  },
+  "selene": {
+    "src": "/artwork/transparent-v2/selene.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "5c05aea0611a7d68e84848bdaa8e83ed4a433c4c29dffc2f3747e18b6ba95653"
+  },
+  "morel": {
+    "src": "/artwork/transparent-v2/morel.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "ed127fd340bc1217b4001d58f4fdd7cbc7690d9662706c9c843237351f997015"
+  },
+  "twinkle": {
+    "src": "/artwork/transparent-v2/twinkle.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "aa69b6ba3d1b05a60a2972b85f2f8a4352656ba721f2fe5f57ffc447610f240e"
+  },
+  "coralie": {
+    "src": "/artwork/transparent-v2/coralie.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "2a8bdc1fa379e1cef2d8e7b7816081e06b2b0aaae221a7fa939fd5d5cbfbd429"
+  },
+  "pebble": {
+    "src": "/artwork/transparent-v2/pebble.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "01a5631b0fb638af2186f120223458d6e17471203d87fa85f9800c9f396929e6"
+  },
+  "jelli": {
+    "src": "/artwork/transparent-v2/jelli.webp",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "a0b5ac18d766bb9a52f3c8933d3bc33a8eac568e27373e843a6d190d4a865841"
+  }
+}

@@ -1,23 +1,17 @@
 services:
   studio:
-    build:
-      context: .
-      dockerfile: deploy/studio/Dockerfile
+    build: .
     restart: unless-stopped
-    ports:
-      - "127.0.0.1:3000:3000"
+    ports: ["127.0.0.1:3000:3000"]
     env_file: .env
-    volumes:
-      - studio-data:/data
-    mem_limit: 1g
-    cpus: 2
-    pids_limit: 128
+    environment:
+      DATA_DIR: /data
+      STORY_ASSETS: /app/apps/story-studio/dist
+    volumes: ["studio-data:/data"]
     read_only: true
-    tmpfs:
-      - /tmp
-    cap_drop:
-      - ALL
-    security_opt:
-      - no-new-privileges:true
+    tmpfs: ["/tmp"]
+    cap_drop: ["ALL"]
+    security_opt: ["no-new-privileges:true"]
+    mem_limit: 1g
 volumes:
   studio-data:

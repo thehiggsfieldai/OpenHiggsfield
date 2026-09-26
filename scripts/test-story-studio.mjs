@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import {DatabaseSync} from 'node:sqlite';
+import http from 'node:http';
+import {newStory,storySchema,estimateStory,preflightStory,languages} from '../deploy/story/domain.mjs';
+import {createStoryStore,createStories} from '../deploy/story/api.mjs';
+const db=new DatabaseSync(':memory:');const store=createStoryStore(db);
+for(const l of languages){const story=newStory({language:l.code});assert.equal(story.language,l.code);assert.equal(story.scenes.reduce((a,s)=>a+s.duration,0),60);}
+assert.throws(()=>newStory({language:'xx'}));
+const draft=newStory({title:'A lantern on the moon'});const saved=store.create('alpha',draft);
+assert.equal(store.get('beta',saved.id),null);assert.equal(store.list('beta').length,0);
+assert.throws(()=>store.save('beta',saved.id,1,draft),/not found/);
+const changed=store.save('alpha',saved.id,1,{...draft,title:'The lunar lantern'});assert.equal(changed.revision,2);
+assert.throws(()=>store.save('alpha',saved.id,1,draft),/another tab/);
+assert.throws(()=>storySchema.parse({...draft,scenes:draft.scenes.map((s,i)=>({...s,duration:i===0?6:s.duration}))}),/60 seconds/);
+assert.throws(()=>storySchema.parse({...draft,scenes:draft.scenes.map((s,i)=>({...s,delivery:i===0?'on-camera':'voice-over'}))}),/On-camera/);
+const film=newStory({mode:'cinematic'});film.scenes[0].delivery='on-camera';assert.equal(storySchema.parse(film).scenes[0].delivery,'on-camera');
+const unknown=estimateStory(draft);assert.equal(unknown.totalUsd,null);assert.ok(unknown.unknown.includes('Narration characters'));
+const priced=estimateStory(draft,{image:.02,script:.01,narrationCharacter:0});assert.equal(priced.totalUsd,.17);
+assert.equal(preflightStory(draft).ready,false);
+const batch=store.batch('alpha',{name:'Launch',titles:Array.from({length:100},(_,i)=>'Story '+(i+1)),language:'te'});assert.equal(batch.stories.length,100);assert.equal(store.list('alpha').length,101);
+assert.throws(()=>store.batch('alpha',{name:'Bad',titles:['Same','same']}),/different title/);assert.equal(store.list('alpha').length,101);
+assert.throws(()=>store.batch('alpha',{name:'Too big',titles:Array.from({length:101},(_,i)=>String(i))}));
+let origin;const handler=createStories(db,{origin:'http://studio.test',workspaces:{scope:req=>req.headers['x-workspace-id']==='forbidden'?null:{id:req.headers['x-workspace-id']||'alpha',role:req.headers['x-role']||'owner'}}});
+const server=http.createServer((req,res)=>{if(req.headers['x-test-user'])req.studioUser={id:'test'};void handler(req,res,new URL(req.url,origin));});await new Promise(r=>server.listen(0,'127.0.0.1',r));origin='http://127.0.0.1:'+server.address().port;
+try{const request=(path,options={})=>fetch(origin+'/api/stories'+path,options);
+ assert.equal((await request('')).status,401);
+ assert.equal((await request('',{headers:{'x-test-user':'yes','x-workspace-id':'forbidden'}})).status,403);
+ assert.equal((await request('',{method:'POST',headers:{'x-test-user':'yes',origin:'http://attacker.test'},body:JSON.stringify(draft)})).status,403);
+ assert.equal((await request('',{method:'POST',headers:{'x-test-user':'yes',origin:'http://studio.test','x-role':'viewer'},body:JSON.stringify(draft)})).status,403);
+ const list=await(await request('',{headers:{'x-test-user':'yes','x-workspace-id':'beta'}})).json();assert.equal(list.stories.length,0);
+ const r=await request('',{method:'POST',headers:{'x-test-user':'yes',origin:'http://studio.test'},body:JSON.stringify(draft)});assert.equal(r.status,201);
+ console.log('PASS: five languages, 60-second validation, on-camera constraints, unknown costs, revision conflicts, isolated workspaces, atomic 100-story drafts, auth/CSRF/viewer restrictions. No paid API requests.');
+}finally{server.closeAllConnections();await new Promise(r=>server.close(r));db.close();}

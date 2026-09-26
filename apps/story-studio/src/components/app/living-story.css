@@ -1,0 +1,47 @@
+.living-story{margin:0 0 30px;text-align:left}
+.living-stage{height:300px;position:relative;overflow:hidden;background:#42503b;border-radius:16px;isolation:isolate}
+.woodland-background{width:100%;height:100%;object-fit:cover;object-position:center 65%;position:absolute;inset:0}
+.living-stage::after{content:'';position:absolute;inset:0;background:#fff8ed;opacity:.13;pointer-events:none}
+.cast-wing{position:absolute;bottom:12px;width:38%;height:255px;z-index:2}
+.cast-wing-left{left:1%}.cast-wing-right{right:1%}
+.scene-character{position:absolute;bottom:0;width:34%;height:90%;z-index:2}
+.scene-character .original-cast-art{overflow:visible}
+.scene-character img{padding:0;object-position:center bottom;filter:drop-shadow(0 6px 5px #1b201f35)}
+.wing-position-0{left:-3%;height:82%;bottom:12px;z-index:1}
+.wing-position-1{left:20%;height:91%;bottom:8px;z-index:2}
+.wing-position-2{left:44%;height:76%;bottom:3px;z-index:3}
+.wing-position-3{left:66%;height:97%;z-index:4}
+.cast-wing-right .wing-position-0{left:0;height:100%;bottom:0;z-index:4}
+.cast-wing-right .wing-position-1{left:25%;height:72%;bottom:3px;z-index:3}
+.cast-wing-right .wing-position-2{left:47%;height:90%;bottom:8px;z-index:2}
+.cast-wing-right .wing-position-3{left:70%;height:85%;bottom:12px;z-index:1}
+.cast-wing-right .scene-character img{transform:scaleX(-1)}
+.story-hero-head{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;text-align:left;padding:0 24px}
+.imagination-opening .story-hero-head h1{font-size:clamp(43px,4.4vw,64px);line-height:1.04}
+.story-hero-head p{font-size:15px;line-height:1.7;max-width:40ch;margin-top:20px;color:var(--muted-foreground)}
+.story-hero-head .idea-composer{margin:0}
+.imagination-opening:has(.living-story){padding-top:18px}
+@media(max-width:1000px) and (min-width:701px){.living-stage{height:250px}.cast-wing{height:220px;width:42%}.cast-wing-left{left:0}.cast-wing-right{right:0}}
+@media(max-width:700px){
+.imagination-opening:has(.living-story){display:flex;flex-direction:column;padding-top:12px}
+.imagination-opening>.living-story{order:-1;margin:0 0 26px}
+.living-stage{height:190px;border-radius:12px}
+.woodland-background{object-position:center 62%}
+.cast-wing{height:160px;width:45%;bottom:8px}
+.cast-wing-left{left:0}.cast-wing-right{right:0}
+.scene-character{width:48%}
+.cast-wing-left .wing-position-0,.cast-wing-right .wing-position-3{display:none}
+.cast-wing-left .wing-position-1{left:0;height:92%;bottom:6px}
+.cast-wing-left .wing-position-2{left:27%;height:67%;bottom:0}
+.cast-wing-left .wing-position-3{left:56%;height:90%;bottom:0}
+.cast-wing-right .wing-position-0{left:-4%;height:100%;bottom:0}
+.cast-wing-right .wing-position-1{left:28%;height:68%;bottom:0}
+.cast-wing-right .wing-position-2{left:56%;height:90%;bottom:6px}
+.story-hero-head{display:contents}.story-hero-copy{order:0}
+.imagination-opening .story-hero-head h1{font-size:clamp(40px,9.5vw,60px)}
+.story-hero-copy p{font-size:14px;margin:18px auto 0;padding:0 12px}
+.story-hero-head .idea-composer{order:2;margin:25px 0 0}
+.opening-cast-choice{order:3;margin-top:18px}.opening-honesty{order:4}
+}
+/* Keep the distant hills and the inviting path in the shallow banner crop. */
+.assembled-stage .woodland-background{object-position:center 43%}

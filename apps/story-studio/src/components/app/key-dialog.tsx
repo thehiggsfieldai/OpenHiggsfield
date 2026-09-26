@@ -1,0 +1,6 @@
+import {createPortal} from 'react-dom';
+import {X} from 'lucide-react';
+export function KeyDialog({open,onClose}: {open:boolean;onClose:()=>void;onConnected:()=>void}) {
+ if(!open)return null;
+ return createPortal(<div className="fixed inset-0 z-50 grid place-items-center bg-background/90 p-6" onClick={onClose}><section role="dialog" aria-modal="true" aria-labelledby="connection-title" className="relative w-full max-w-md rounded-2xl border border-border bg-card p-8" onClick={e=>e.stopPropagation()}><button onClick={onClose} aria-label="Close connections" className="absolute right-4 top-4 p-2"><X size={18}/></button><h2 id="connection-title" className="text-xl font-semibold">Your studio connections</h2><p className="mt-4 text-sm leading-relaxed text-muted-foreground">The Higgsfield generation workflow is being connected to encrypted, workspace-owned credentials. This local preview lets you explore characters, styles and the creation flow.</p><p className="mt-4 text-sm leading-relaxed text-muted-foreground">Key entry and paid generation are unavailable here until that connection is tested.</p><button onClick={onClose} className="mt-6 rounded-full bg-foreground px-5 py-3 text-sm text-background">Continue exploring</button></section></div>,document.body);
+}

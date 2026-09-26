@@ -1,1 +1,4 @@
-import fs from 'node:fs/promises';import path from 'node:path';const out=path.resolve('.sites-runtime/project-site');await fs.mkdir(out,{recursive:true});await fs.cp('docs/site',out,{recursive:true});await fs.cp('docs/media',out+'/media',{recursive:true});await fs.cp('public/fonts',out+'/fonts',{recursive:true});await fs.writeFile(out+'/.nojekyll','');console.log('Built project website in '+out);
+import fs from 'node:fs/promises';
+await fs.mkdir('.sites-runtime/project-site',{recursive:true});
+await fs.cp('docs/site','.sites-runtime/project-site',{recursive:true});
+await fs.writeFile('.sites-runtime/project-site/.nojekyll','');
